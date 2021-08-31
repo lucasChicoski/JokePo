@@ -1,0 +1,2 @@
+String win = '😎';
+String loose = '😭';
