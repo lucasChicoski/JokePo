@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:get_it/get_it.dart';
+import 'package:jokepo/break_points/colors.dart';
 import 'package:jokepo/break_points/images.dart';
 import 'package:jokepo/controllers/jokenpo_controller.dart';
 
@@ -28,7 +29,7 @@ class _JokePoPortraitState extends State<JokePoPortrait> {
                     padding: EdgeInsets.all(16),
                     child: Container(
                       decoration: BoxDecoration(
-                          color: Color(0xff26006e),
+                          color: Color(icones),
                           borderRadius: BorderRadius.circular(100),
                           boxShadow: [
                             BoxShadow(
@@ -66,7 +67,7 @@ class _JokePoPortraitState extends State<JokePoPortrait> {
                   children: [
                     Container(
                       decoration: BoxDecoration(
-                          color: Color(0xff26006e),
+                          color: Color(icones),
                           borderRadius: BorderRadius.circular(100),
                           boxShadow: [
                             BoxShadow(
@@ -86,7 +87,7 @@ class _JokePoPortraitState extends State<JokePoPortrait> {
                     ),
                     Container(
                       decoration: BoxDecoration(
-                          color: Color(0xff26006e),
+                          color: Color(icones),
                           borderRadius: BorderRadius.circular(100),
                           boxShadow: [
                             BoxShadow(
@@ -107,7 +108,7 @@ class _JokePoPortraitState extends State<JokePoPortrait> {
                     ),
                     Container(
                       decoration: BoxDecoration(
-                        color: Color(0xff26006e),
+                        color: Color(icones),
                         borderRadius: BorderRadius.circular(100),
                         boxShadow: [
                           BoxShadow(
@@ -156,7 +157,7 @@ class _JokePoPortraitState extends State<JokePoPortrait> {
                               )
                             ],
                             borderRadius: BorderRadius.circular(100),
-                            color: Color(0xff26006e),
+                            color: Color(icones),
                           ),
                           child: Image.asset(
                               jokenPoController.resultImageWithOutBackGround),
@@ -187,7 +188,7 @@ class _JokePoPortraitState extends State<JokePoPortrait> {
                             )
                           ],
                           borderRadius: BorderRadius.circular(100),
-                          color: Color(0xff26006e),
+                          color: Color(icones),
                         ),
                         child: InkWell(
                           onTap: jokenPoController.generateStone,
@@ -206,7 +207,7 @@ class _JokePoPortraitState extends State<JokePoPortrait> {
                             )
                           ],
                           borderRadius: BorderRadius.circular(100),
-                          color: Color(0xff26006e),
+                          color: Color(icones),
                         ),
                         child: InkWell(
                           borderRadius: BorderRadius.circular(100),
@@ -225,7 +226,7 @@ class _JokePoPortraitState extends State<JokePoPortrait> {
                             )
                           ],
                           borderRadius: BorderRadius.circular(100),
-                          color: Color(0xff26006e),
+                          color: Color(icones),
                         ),
                         child: InkWell(
                           borderRadius: BorderRadius.circular(100),
@@ -260,7 +261,7 @@ class _JokePoPortraitState extends State<JokePoPortrait> {
                             // color: Colors.red,
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(300),
-                                color: Color(0xff26006e),
+                                color: Color(icones),
                                 boxShadow: [
                                   BoxShadow(
                                       color: Colors.black.withOpacity(0.5),
@@ -289,7 +290,7 @@ class _JokePoPortraitState extends State<JokePoPortrait> {
                         Container(
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(100),
-                              color: Color(0xff26006e),
+                              color: Color(icones),
                               boxShadow: [
                                 BoxShadow(
                                     color: Colors.black.withOpacity(0.5),
@@ -308,7 +309,7 @@ class _JokePoPortraitState extends State<JokePoPortrait> {
                         Container(
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(100),
-                              color: Color(0xff26006e),
+                              color: Color(icones),
                               boxShadow: [
                                 BoxShadow(
                                     color: Colors.black.withOpacity(0.5),
@@ -327,7 +328,7 @@ class _JokePoPortraitState extends State<JokePoPortrait> {
                         Container(
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(100),
-                              color: Color(0xff26006e),
+                              color: Color(icones),
                               boxShadow: [
                                 BoxShadow(
                                     color: Colors.black.withOpacity(0.5),
