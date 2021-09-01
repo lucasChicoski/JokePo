@@ -14,7 +14,7 @@ class _JokePoPortraitState extends State<JokePoPortrait> {
       return Align(
         alignment: Alignment.center,
         child: Visibility(
-          visible: constraints.maxWidth <= 500,
+          visible: constraints.maxWidth <= 540,
           child: Container(
             //color: Colors.yellow,
             width: double.infinity,
@@ -125,8 +125,90 @@ class _JokePoPortraitState extends State<JokePoPortrait> {
             child: Container(
               width: constraints.maxWidth * 1,
               height: constraints.maxHeight * 0.8,
-              color: Colors.yellow,
-              
+             // color: Colors.yellow,
+              child: Column(
+                children: [
+                  Padding(
+                    padding: EdgeInsets.fromLTRB(0, 100, 0, constraints.maxHeight * 0.09),
+                    child: Container(
+                        width: constraints.maxWidth * 0.3,
+                        height: constraints.maxHeight * 0.25,
+                        // color: Colors.red,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(300),
+                            color: Color(0xff26006e),
+                            boxShadow: [
+                              BoxShadow(
+                                  color: Colors.black.withOpacity(0.5),
+                                  offset: Offset(0, 3),
+                                  blurRadius: 1,
+                                  spreadRadius: 3)
+                            ]),
+                        child: Image.asset(question1)),
+                  ),
+                  Text("Voce Ganhou", style: TextStyle(fontSize: 40),),
+                  Padding(
+                    padding: EdgeInsets.fromLTRB(constraints.maxWidth * 0.18,
+                      constraints.maxHeight * 0.09, 0, 0),
+                    child: Row(
+                      children: [
+                        Padding(
+                          padding: EdgeInsets.all(5),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(100),
+                                color: Color(0xff26006e),
+                                boxShadow: [
+                                  BoxShadow(
+                                      color: Colors.black.withOpacity(0.5),
+                                      offset: Offset(0, 3),
+                                      blurRadius: 1,
+                                      spreadRadius: 3)
+                                ]),
+                            child: Image.asset(pedra1),
+                            width: constraints.maxWidth * 0.2,
+                            height: constraints.maxHeight * 0.15,
+                          ),
+                        ),
+                        Padding(
+                            padding: EdgeInsets.all(20),
+                            child: Container(
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(100),
+                                  color: Color(0xff26006e),
+                                  boxShadow: [
+                                    BoxShadow(
+                                        color: Colors.black.withOpacity(0.5),
+                                        offset: Offset(0, 3),
+                                        blurRadius: 1,
+                                        spreadRadius: 3)
+                                  ]),
+                              child: Image.asset(papel1),
+                              width: constraints.maxWidth * 0.2,
+                              height: constraints.maxHeight * 0.15,
+                            )),
+                        Padding(
+                            padding: EdgeInsets.all(5),
+                            child: Container(
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(100),
+                                  color: Color(0xff26006e),
+                                  boxShadow: [
+                                    BoxShadow(
+                                        color: Colors.black.withOpacity(0.5),
+                                        offset: Offset(0, 3),
+                                        blurRadius: 1,
+                                        spreadRadius: 3)
+                                  ]),
+                              child: Image.asset(tesoura1),
+                              width: constraints.maxWidth * 0.2,
+                              height: constraints.maxHeight * 0.15,
+                            )),
+                      ],
+                    ),
+                  )
+                ],
+              ),
             ),
           ),
         ),
