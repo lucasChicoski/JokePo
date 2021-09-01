@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:get_it/get_it.dart';
+import 'package:jokepo/break_points/colors.dart';
 import 'package:jokepo/break_points/emotions.dart';
 import 'package:jokepo/break_points/images.dart';
 import 'package:jokepo/controllers/jokenpo_controller.dart';
@@ -34,7 +35,7 @@ class _JokePoLandScapeState extends State<JokePoLandScape> {
                       return Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(100),
-                          color: Color(0xff26006e),
+                          color: Color(icones),
                           boxShadow: [
                             BoxShadow(
                               color: Colors.black.withOpacity(0.5),
@@ -69,7 +70,7 @@ class _JokePoLandScapeState extends State<JokePoLandScape> {
                           children: [
                             Container(
                               decoration: BoxDecoration(
-                                color: Color(0xff26006e),
+                                color: Color(icones),
                                 borderRadius: BorderRadius.circular(100),
                                 boxShadow: [
                                   BoxShadow(
@@ -90,7 +91,7 @@ class _JokePoLandScapeState extends State<JokePoLandScape> {
                             ),
                             Container(
                               decoration: BoxDecoration(
-                                color: Color(0xff26006e),
+                                color: Color(icones),
                                 borderRadius: BorderRadius.circular(100),
                                 boxShadow: [
                                   BoxShadow(
@@ -110,7 +111,7 @@ class _JokePoLandScapeState extends State<JokePoLandScape> {
                             ),
                             Container(
                               decoration: BoxDecoration(
-                                color: Color(0xff26006e),
+                                color: Color(icones),
                                 borderRadius: BorderRadius.circular(100),
                                 boxShadow: [
                                   BoxShadow(
@@ -155,7 +156,7 @@ class _JokePoLandScapeState extends State<JokePoLandScape> {
                           children: [
                             Container(
                                 decoration: BoxDecoration(
-                                  color: Color(0xff26006e),
+                                  color: Color(icones),
                                   borderRadius: BorderRadius.circular(100),
                                   boxShadow: [
                                     BoxShadow(
@@ -185,7 +186,7 @@ class _JokePoLandScapeState extends State<JokePoLandScape> {
                               children: [
                                 Container(
                                     decoration: BoxDecoration(
-                                      color: Color(0xff26006e),
+                                      color: Color(icones),
                                       borderRadius: BorderRadius.circular(100),
                                       boxShadow: [
                                         BoxShadow(
@@ -205,7 +206,7 @@ class _JokePoLandScapeState extends State<JokePoLandScape> {
                                     )),
                                 Container(
                                   decoration: BoxDecoration(
-                                    color: Color(0xff26006e),
+                                    color: Color(icones),
                                     borderRadius: BorderRadius.circular(100),
                                     boxShadow: [
                                       BoxShadow(
@@ -229,7 +230,7 @@ class _JokePoLandScapeState extends State<JokePoLandScape> {
                                 ),
                                 Container(
                                   decoration: BoxDecoration(
-                                    color: Color(0xff26006e),
+                                    color: Color(icones),
                                     borderRadius: BorderRadius.circular(100),
                                     boxShadow: [
                                       BoxShadow(
